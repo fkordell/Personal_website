@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Raleway:wght@200&display=swap');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    padding:0;
+    background-color:#BABFD1;
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#0E1D42;
+    padding-bottom: 10px;
+}
+.logo{
+    width: 100px;
+    border-radius: 50%;
+}
+#logo-link{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+nav a:hover{
+    
+    text-decoration: underline;
+}
+nav a{
+    text-align: center;
+    margin: 30px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color:#BABFD1;
+}
+main section{
+    text-align: left;
+}
+.home-title{
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Paytone';
+    color: #0E1D42;
+}
+
+.msg{
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 110px;
+    margin-bottom:110px ;
+    box-shadow: 10px 10px 10px #0E1D42;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+    background-color: white;
+    color:#0E1D42;
+}
+.msg p{
+    font-family:'Raleway';
+    font-size: 1em;
+}
+.card-img{
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0E1D42;
+}
+footer a{
+    text-decoration: none;
+    color:#BABFD1;
+}
+footer a:hover{
+    background-color:transparent;
+}
+footer p{
+    font-size: 1.2em;
+    color:#BABFD1;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer .socialmedia img{
+    padding-top: 15px;
+}
